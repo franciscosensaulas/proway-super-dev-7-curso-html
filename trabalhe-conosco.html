@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalhe conosco</title>
+</head>
+<body>
+    <!-- trabalhe-conosco.html -->
+    <!-- <h1>Trabalhe conosco</h1>
+    
+    <h2>Vagas disponíveis</h2>
+    <ul>
+        <li>Progamador Júnior</li>
+        <li>Progamador Pleno</li>
+        <li>Progamador Senior</li>
+        <li>Progamador Especialista</li>
+        <li>Staff</li>
+        <li>Staff Senior</li>
+        <li>Principal</li>
+    </ul> -->
+
+    <h2>Candidate-se</h2>
+
+    <form action="https://localhost:8001/vagas/cadastrar" method="get">
+        
+        <!-- id é um identificador do elemento e não pode se repetir na página -->
+        
+        <label for="campo-nome">Nome</label>
+        <input type="text" required minlength="3" maxlength="20" id="campo-nome" name="nome">
+        <br>
+        
+        <label for="campo-idade">Idade</label>
+        <input type="number" required min="14" max="100" id="campo-idade" name="idade">
+        <br>
+        
+        <label for="campo-cpf">CPF</label>
+        <input type="text" required minlength="14" maxlength="14" id="campo-cpf" name="cpf">
+        <br>
+        
+        <label for="campo-data-preferida">Data Preferida</label>
+        <input type="date" required name="data-preferida" id="campo-data-preferida">
+        <br>
+        
+        <label for="campo-experiencia">Experiencia</label>
+        <input type="checkbox" id="campo-experiencia" name="experiencia" value="sim">
+        <br>
+
+        <br>
+        <input type="radio" id="campo-vaga-junior" name="vaga" value="junior">
+        <label for="campo-vaga-junior">Junior</label>
+
+        <input type="radio" id="campo-vaga-pleno" name="vaga" value="pleno">
+        <label for="campo-vaga-pleno">Pleno</label>
+        <br>
+
+        <label for="campo-anexo">Anexo</label>
+        <input type="file" id="campo-anexo" required name="anexo">
+        <br>
+
+        <button type="submit">Enviar</button>
+    </form>
+<!-- https://localhost:8001/vagas/cadastrar?
+        Query param é utilizado quando enviamos os dados de um form do tipo get
+        Query param é utilizado para enviar os valores dos campos que o usuário preencheu (utiliza o name do campo)
+        Exemplo: https://localhost:8001/vagas/cadastrar?nome=Goku&idade=3
+
+
+        localhost ou 127.0.0.1 é a máquina que vc está programando
+-->
+
+
+
+
+</body>
+</html>

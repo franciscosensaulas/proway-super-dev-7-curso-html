@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página</title>
+    <style>
+        /* Estilo global */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            margin: 0;
+            padding: 0;
+        }
+
+        h1 {
+            text-align: center;
+            color: #333;
+            margin-top: 30px;
+        }
+
+        form {
+            background-color: #fff;
+            max-width: 600px;
+            margin: 40px auto;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        label {
+            display: block;
+            margin-bottom: 5px;
+            color: #333;
+            font-weight: bold;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        input[type="tel"],
+        select,
+        textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            font-size: 14px;
+        }
+
+        textarea {
+            resize: vertical;
+        }
+
+        button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 4px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Entre em contato conosco</h1>
+
+    <form action="salvar-contato.php" method="get">
+        <label>Nome</label>
+        <input type="text" required minlength="3" maxlength="43" name="nome">
+
+        <label>E-mail</label>
+        <input type="email" required name="email">
+
+        <label>Contato</label>
+        <input type="tel" required name="celular">
+
+        <label>Motivo</label>
+        <select name="motivo" required>
+            <option value="1">Bug</option>
+            <option value="2">Sugestão</option>
+            <option value="3">Update</option>
+            <option value="4">Reclamação</option>
+        </select>
+
+        <label>Descrição</label>
+        <textarea name="descricao" rows="10" cols="50"></textarea>
+
+        <button type="submit">Enviar</button>
+    </form>
+</body>
+
+</html>
