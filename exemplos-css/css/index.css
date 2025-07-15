@@ -5,3 +5,15 @@ Folha de Estilo em Cascata */
 body{
     background-color: rgb(44, 18, 18);
 }
+
+
+input{
+    padding-top: 6px;
+    padding-right: 8px;
+    padding-bottom: 6px;
+    padding-left: 8px;
+    /* Short hand */
+    padding: 6px 8px 6px 8px; /* topo direita base esquerda */
+    padding: 6px 0px; /* topo/base direita/esquera  */
+    
+}
