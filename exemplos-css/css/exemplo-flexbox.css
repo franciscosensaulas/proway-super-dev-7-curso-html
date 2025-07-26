@@ -1,0 +1,59 @@
+body{
+    font-family: "Lato", sans-serif;
+}
+
+.pokemons{
+    display: flex; /* Ativa o flexbox */
+    /* Flex direction define como será apresentado os elementos (linhas, colunas, linhas inversas, colunas-inversas)
+        - row: disposição horizontal (default "padrão")
+        - column: disposição vertical
+        - row-reverse disposição horizontal invertida
+        - column-reverse disposição vertical invertida
+    */
+    flex-direction: row;
+    /* Flex wrap define se os itens devem "quebrar" para uma nova linha/coluna quando não houver espaço disponível
+        - nowrap: não quebra a linha, sugirá uma barra de rolagem
+        - wrap: quebra a linha
+    */
+    flex-wrap: wrap;
+    /* Aplicar espaçamento entre elementos */
+    gap: 10px;
+}
+
+.pokemon{
+    background-color: darkgrey;
+    width: 300px;
+}
+
+.pokemon-nome{
+    display: block;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.pokemon-foto{
+    width: 260px;
+}
+
+.pokemon-tipos, .pokemon-fraquezas{
+    display: flex;  
+    /*
+        Justify content define como será distribuído os elementos horizontalmente
+        - flex-start: alinhado na esquerda
+        - flex-end: alinhado na direita
+        - center: alinhado no centro
+        - space-between: alinhados com o máximo de espaço entre eles, sem espaços nas extremidades
+        - space-around: alinhados com espaço igual em torno de cada item (incluindo as extremidades)
+        - space-evenly: alinhados com espaço igual entre si e nas extremidades
+    */
+    justify-content: space-evenly;
+    gap: 2px;
+    flex-wrap: wrap;
+}
+/* <link rel="stylesheet" href="css/pokemons.css"> */
+.pokemon-tipo, .pokemon-fraqueza{
+    padding: 5px 10px;
+    border-radius: 10px;
+    text-transform: capitalize;
+}

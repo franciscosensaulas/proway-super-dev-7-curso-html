@@ -1,0 +1,180 @@
+{
+    "pokemons": [
+        {
+            "nome": "Absol",
+            "link": "https://www.pokemon.com/us/pokedex/absol",
+            "numero": "359",
+            "foto": "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/359_f2.png",
+            "tipo": [
+                "Sombrio"
+            ],
+            "fraquezas": [
+                "Lutador",
+                "Inseto",
+                "Fada"
+            ]
+        },
+        {
+            "nome": "Onix",
+            "link": "https://www.pokemon.com/br/pokedex/onix",
+            "numero": "0095",
+            "foto": "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/095.png",
+            "tipo": [
+                "Rock",
+                "Ground"
+            ],
+            "fraquezas": [
+                "Água",
+                "Planta",
+                "Ice",
+                "Luta",
+                "Ground",
+                "Steel"
+            ]
+        },
+        {
+            "nome": "Snorlax",
+            "link": "https://www.pokemon.com/br/pokedex/snorlax",
+            "numero": "0143",
+            "foto": "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/143.png",
+            "tipo": [
+                "Normal"
+            ],
+            "fraquezas": [
+                "Luta"
+            ]
+        },
+        {
+            "nome": "hisuian-zoroark",
+            "link": "https://pokemondb.net/pokedex/zoroark",
+            "numero": "0571",
+            "foto": "https://img.pokemondb.net/artwork/avif/zoroark-hisuian.avif",
+            "tipo": [
+                "normal",
+                "ghost"
+            ],
+            "fraquezas": [
+                "dark"
+            ]
+        },
+        {
+            "nome": "Necrozma",
+            "link": "https://www.pokemon.com/br/pokedex/necrozma",
+            "numero": "0800",
+            "foto": "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/800.png",
+            "tipo": [
+                "Psíquico"
+            ],
+            "fraquezas": [
+                "Bug",
+                "Ghost",
+                "Dark"
+            ]
+        },
+        {
+            "nome": "Mega Houndoom",
+            "link": "https://www.pokemon.com/us/pokedex/houndoom",
+            "numero": "#0229",
+            "foto": "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/229_f2.png",
+            "tipo": [
+                "Dark",
+                "Fire"
+            ],
+            "fraquezas": [
+                "Water",
+                "Figthing",
+                "Ground",
+                "Rock"
+            ]
+        },
+        {
+            "nome": "Minun",
+            "link": "https://www.pokemon.com/br/pokedex/minun",
+            "numero": "0312",
+            "foto": "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/312.png",
+            "tipo": [
+                "Eletric"
+            ],
+            "fraquezas": [
+                "Ground"
+            ]
+        },
+        {
+            "nome": "Lucario",
+            "link": "https://www.pokemon.com/br/pokedex/lucario",
+            "numero": "0448",
+            "foto": "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/448.png",
+            "tipo": [
+                "Luta",
+                "Stell"
+            ],
+            "fraquezas": [
+                "fogo",
+                "luta",
+                "ground"
+            ]
+        },
+        {
+            "nome": "Braviary",
+            "link": "https://www.pokemon.com/br/pokedex/braviary",
+            "numero": "0628",
+            "foto": "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/628.png",
+            "tipo": [
+                "Normal",
+                "Flying"
+            ],
+            "fraquezas": [
+                "Electric",
+                "Ice",
+                "Rock"
+            ]
+        },
+        {
+            "nome": "Jigglypuff",
+            "link": "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/039.png",
+            "numero": "0039",
+            "foto": "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/039.png",
+            "tipo": [
+                "Normal",
+                "Fada"
+            ],
+            "fraquezas": [
+                "Poison",
+                "Steel"
+            ]
+        },
+        {
+            "nome": "Blaziken",
+            "link": "https://www.pokemon.com/br/pokedex/blaziken",
+            "numero": "257",
+            "foto": "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/257_f2.png",
+            "tipo": [
+                "Fogo",
+                "Luta"
+            ],
+            "fraquezas": [
+                "Água",
+                "Ground",
+                "Flying",
+                "Psíquico"
+            ]
+        },
+        {
+            "nome": "Decidueye",
+            "link": "https://www.pokemon.com/br/pokedex/decidueye",
+            "numero": "0724",
+            "foto": "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/724.png",
+            "tipo": [
+                "Planta",
+                "Ghost"
+            ],
+            "fraquezas": [
+                "Fogo",
+                "ice",
+                "Flying",
+                "Ghost",
+                "Dark"
+            ]
+        }
+    ]
+}

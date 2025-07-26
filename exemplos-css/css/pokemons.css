@@ -1,0 +1,159 @@
+
+/* Cores por tipo (exemplos, pode expandir) */
+.pokemon-tipo-fogo {
+    background-color: #f08030;
+}
+
+.pokemon-tipo-agua {
+    background-color: #6890f0;
+}
+
+.pokemon-tipo-planta {
+    background-color: #78c850;
+}
+
+.pokemon-tipo-eletric,
+.pokemon-tipo-eletrico {
+    background-color: #f8d030;
+}
+
+.pokemon-tipo-lutador,
+.pokemon-tipo-luta {
+    background-color: #c03028;
+}
+
+.pokemon-tipo-fada {
+    background-color: #ee99ac;
+}
+
+.pokemon-tipo-fantasma,
+.pokemon-tipo-ghost {
+    background-color: #705898;
+}
+
+.pokemon-tipo-sombrio,
+.pokemon-tipo-escuro,
+.pokemon-tipo-dark {
+    background-color: #705848;
+}
+
+.pokemon-tipo-pedra {
+    background-color: #b8a038;
+}
+
+.pokemon-tipo-terra {
+    background-color: #e0c068;
+}
+
+.pokemon-tipo-psiquico,
+.pokemon-tipo-psychic {
+    background-color: #f85888;
+}
+
+.pokemon-tipo-voador,
+.pokemon-tipo-flying {
+    background-color: #a890f0;
+}
+
+.pokemon-tipo-normal {
+    background-color: #a8a878;
+}
+
+.pokemon-tipo-aco,
+.pokemon-tipo-stell,
+.pokemon-tipo-steel {
+    background-color: #b8b8d0;
+}
+
+.pokemon-tipo-gelo,
+.pokemon-tipo-ice {
+    background-color: #98d8d8;
+}
+
+.pokemon-tipo-inseto {
+    background-color: #a8b820;
+}
+
+.pokemon-tipo-dragon {
+    background-color: #7038f8;
+}
+
+.pokemon-tipo-poison,
+.pokemon-tipo-veneno {
+    background-color: #a040a0;
+}
+
+/* Mesma lógica para fraquezas */
+.pokemon-fraqueza-fogo {
+    background-color: #f08030;
+}
+
+.pokemon-fraqueza-agua {
+    background-color: #6890f0;
+}
+
+.pokemon-fraqueza-planta {
+    background-color: #78c850;
+}
+
+.pokemon-fraqueza-luta,
+.pokemon-fraqueza-lutador {
+    background-color: #c03028;
+}
+
+.pokemon-fraqueza-fada {
+    background-color: #ee99ac;
+}
+
+.pokemon-fraqueza-fantasma,
+.pokemon-fraqueza-ghost {
+    background-color: #705898;
+}
+
+.pokemon-fraqueza-inseto {
+    background-color: #a8b820;
+}
+
+.pokemon-fraqueza-terra,
+.pokemon-fraqueza-ground {
+    background-color: #e0c068;
+}
+
+.pokemon-fraqueza-pedra,
+.pokemon-fraqueza-rock {
+    background-color: #b8a038;
+}
+
+.pokemon-fraqueza-gelo,
+.pokemon-fraqueza-ice {
+    background-color: #98d8d8;
+}
+
+.pokemon-fraqueza-eletric,
+.pokemon-fraqueza-electric {
+    background-color: #f8d030;
+}
+
+.pokemon-fraqueza-voador,
+.pokemon-fraqueza-flying {
+    background-color: #a890f0;
+}
+
+.pokemon-fraqueza-psiquico,
+.pokemon-fraqueza-psychic {
+    background-color: #f85888;
+}
+
+.pokemon-fraqueza-dark,
+.pokemon-fraqueza-escuro {
+    background-color: #705848;
+}
+
+.pokemon-fraqueza-veneno {
+    background-color: #a040a0;
+}
+
+.pokemon-fraqueza-aco,
+.pokemon-fraqueza-steel {
+    background-color: #b8b8d0;
+}
